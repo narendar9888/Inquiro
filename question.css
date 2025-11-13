@@ -1,0 +1,22 @@
+header {
+    background-color: #b92b27;
+
+}
+
+main {
+    background-color: aquamarine;
+    font-size: 70px;
+}
+
+.answerText {
+    font-size: 200px;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    margin: 10px;
+    align-items: center;
+}
