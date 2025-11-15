@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ask a Question</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <a href="index.html">← Back to Home</a>
+  </header>
+  <main>
+    <h2>Ask a Question</h2>
+    <form id="askForm">
+      <input type="text" id="username" placeholder="Your name" required />
+      <textarea id="questionText" placeholder="Type your question..." required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+  <script>
+    document.getElementById("askForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      const user = document.getElementById("username").value;
+      const question = document.getElementById("questionText").value;
+      alert("Question submitted by " + user + ": " + question);
+      // You can push to localStorage or redirect to index.html
+    });
+  </script>
+</body>
+</html>
