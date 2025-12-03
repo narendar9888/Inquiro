@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #e63946, #ff9f1c);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    width: 550px;
+    height: 700px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.login-box:hover {
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.8);
+    transform: translateY(-15px);
+    transform: translateX(-15px);
+    transform: translateZ(-15px);
+    border-radius: 10px;
+    background: #f0f0f0;
+}
+
+.login-box h2 {
+    margin-bottom: 100px;
+    color: #e63946;
+    font-size: 50px;
+}
+
+.login-box h2:hover {
+    text-shadow: 10px 10px 30px rgba(230, 57, 70, 0.95);
+    background-color: transparent;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 45px;
+}
+
+
+label {
+    display: block;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+label:hover {
+    color: #e63946;
+    text-shadow: 10px 10px 25px rgba(230, 57, 70, 0.9);
+    background-color: transparent;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 30px;
+}
+
+input:hover {
+    border-color: #e63946;
+    box-shadow: 10px 10px 25px rgba(230, 57, 70, 0.9);
+    width: 95%;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #e63946;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.btn:hover {
+    box-shadow: 10px 10px 25px rgba(230, 57, 70, 0.9);
+    transform: translateY(-5px);
+    transform: translateX(-5px);
+    transform: translateZ(-5px);
+    transition: box-shadow 0.9s ease;
+    color: black;
+    cursor: progress;
+}
+
+.link {
+    margin-top: 15px;
+    font-size: 20px;
+    text-align: center;
+    background-color: transparent;
+
+}
+
+
+
+.link a {
+    text-decoration: none;
+    color: #e63946;
+    font-weight: bold;
+}
