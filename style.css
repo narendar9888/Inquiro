@@ -162,3 +162,44 @@ footer {
     color: white;
     margin-top: 40px;
 }
+
+.container {
+    padding: 20px;
+    margin: 40px;
+    width: 80%;
+    height: 90%;
+
+}
+
+.topics-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.topic-card {
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.topic-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+.topic-card h3 {
+    margin: 0 0 10px;
+    font-size: 22px;
+    color: #333;
+}
+
+.topic-card p {
+    margin: 0;
+    color: #555;
+    font-size: 16px;
+}
+
