@@ -17,3 +17,25 @@ if (location.pathname.includes("login")) {
         window.location.href = "index.html";
     });
 }
+
+
+//  ASK A QUESTION PAGE 
+if (location.pathname.includes("ask")) {
+    const form = document.getElementById("askForm");
+
+    form.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        let title = document.getElementById("title").value.trim();
+        let details = document.getElementById("details").value.trim();
+
+        if (title === "" || details === "") {
+            alert("Please enter both title and details.");
+            return;
+        }
+
+        alert("Question Submitted!");
+        form.reset();
+    });
+}
+

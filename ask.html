@@ -17,25 +17,26 @@
     </nav>
   </header>
 
-  <div class="ask-container">
+  <form id="askForm" class="ask-container">
     <h2>Ask a Question</h2>
 
     <div class="input-group">
-      <label>Question Title</label>
-      <input class="input-field" type="text" placeholder="Write your question here..." />
+      <label for="title">Question Title</label>
+      <input id="title" class="input-field" type="text" placeholder="Write your question here..." />
     </div>
 
     <div class="input-group">
-      <label>Description</label>
-      <textarea class="textarea" placeholder="Describe your question in detail..."></textarea>
+      <label for="details">Description</label>
+      <textarea id="details" class="textarea" placeholder="Describe your question in detail..."></textarea>
     </div>
 
-    <button class="btn">Submit Question</button>
-  </div>
+    <button type="submit" class="btn">Submit Question</button>
+  </form>
 
   <footer>
     © 2025 Inquiro - All rights reserved.
   </footer>
 
 </body>
+<script src="script.js"></script>
 </html>
