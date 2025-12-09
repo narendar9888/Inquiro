@@ -167,14 +167,24 @@ footer {
     padding: 20px;
     margin: 40px;
     width: 80%;
-    height: 90%;
+    height: 95%;
+    transform: 0.3s ease-in-out;
 
+}
+
+.container:hover{
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+    width: 90%;
+    height: 100%;
+    transform: translateX(20px);
+    transform: translateY(20px);
 }
 
 .topics-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 50px;
+    gap: 70px;
 }
 
 .topic-card {
@@ -188,7 +198,7 @@ footer {
 
 .topic-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.9);
 }
 
 .topic-card h3 {
